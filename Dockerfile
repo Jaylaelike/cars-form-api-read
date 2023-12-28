@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose port 4000 for the application
-EXPOSE 5400
+EXPOSE 5500
 
 # Define the command to run the application
 CMD [ "npm", "start" ]

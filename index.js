@@ -13,7 +13,7 @@ require("dotenv").config();
 const { HOST_SQL, USER_SQL, PASSWORD_SQL, DATABASE_SQL, PORT } = process.env;
 
 const app = express();
-const port = 5400;
+const port = 5500;
 app.use(cors());
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
